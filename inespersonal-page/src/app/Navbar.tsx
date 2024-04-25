@@ -1,18 +1,19 @@
 import React,  {useState} from "react"; 
+import { ControlButton } from "reactflow";
 
 const Navbar = () => {
     return (
-        <div className= "flex justify-between items-center w-full border border-pink-500"> 
-        <div className="flex-auto outline outline-pink-500 "> 
+        <nav className= "flex justify-between items-center w-full border border-pink-500"> 
+        <button className="flex-auto outline outline-pink-500 "> 
             About me 
-        </div>
-        <div className="flex-auto outline outline-pink-500"> 
+        </button>
+        <button className="flex-auto outline outline-pink-500"> 
             Skills
-        </div>
-        <div className="flex-auto outline outline-pink-500"> 
+        </button>
+        <button className="flex-auto outline outline-pink-500"> 
             Projects
-        </div>
-        </div>
+        </button>
+        </nav>
     )
 } 
 
